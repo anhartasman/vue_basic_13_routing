@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 166. Navigating with router-link
+## 167. Styling active links
 
-navigasi antar halaman dengan router-link
+memberikan style untuk menu yang dipilih

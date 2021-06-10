@@ -15,7 +15,8 @@ const router = createRouter({
         {
             path:'/users',component:UsersList
         }
-    ]
+    ],
+    linkActiveClass:'active'//merubah class link yang aktif
 });
 
 const app = createApp(App);
