@@ -1,6 +1,5 @@
 # vue_basic_13_routing
-##164. Routing Setup
+## 165. Registering & Rendering Routes
 
-Menginstall package routing pada vue js
-npm install --save vue-router
+mendaftarkan route dan merender tampilannya
 
