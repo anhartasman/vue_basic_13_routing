@@ -1,5 +1,4 @@
 # vue_basic_13_routing
-## 165. Registering & Rendering Routes
+## 166. Navigating with router-link
 
-mendaftarkan route dan merender tampilannya
-
+navigasi antar halaman dengan router-link
