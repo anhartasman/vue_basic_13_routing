@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 170. Navigation & Dynamic Paths
+## 172. Updateing Params Data with Watchers
 
-Navigasi dengan link dinamis
+Merubah data parameter dengan watchers
