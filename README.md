@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 169. Passing Data with Route Params (Dynamic Segments)
+## 170. Navigation & Dynamic Paths
 
-Mempassing data dengan route
+Navigasi dengan link dinamis
