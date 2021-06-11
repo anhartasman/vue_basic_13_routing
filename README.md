@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 172. Updateing Params Data with Watchers
+## 173. Passing Params as Props
 
-Merubah data parameter dengan watchers
+Mempassing param sebagai prop
