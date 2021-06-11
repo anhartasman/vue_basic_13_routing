@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 168. Programmatic Navigation
+## 169. Passing Data with Route Params (Dynamic Segments)
 
-Membuat navigasi secara pemrograman
+Mempassing data dengan route
