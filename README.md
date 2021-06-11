@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 167. Styling active links
+## 168. Programmatic Navigation
 
-memberikan style untuk menu yang dipilih
+Membuat navigasi secara pemrograman
