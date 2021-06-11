@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 173. Passing Params as Props
+## 174. Redirecting & "Catch All" Routes
 
-Mempassing param sebagai prop
+Membuat redirect di route
