@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 176. More Fun with Named Routes & Location Objects
+## 177. Using Query Params
 
-mempelajari named routes dan menggunakan object pada route
+memberikan query pada object di route
