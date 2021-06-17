@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 174. Redirecting & "Catch All" Routes
+## 175. Using Nested Routes
 
-Membuat redirect di route
+Membuat nexted routes
