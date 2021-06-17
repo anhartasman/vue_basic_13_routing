@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 175. Using Nested Routes
+## 176. More Fun with Named Routes & Location Objects
 
-Membuat nexted routes
+mempelajari named routes dan menggunakan object pada route
