@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 177. Using Query Params
+## 178. Rendering Multiple Routes
 
-memberikan query pada object di route
+merender banyak route dengan named route
