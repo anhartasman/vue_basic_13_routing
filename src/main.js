@@ -29,7 +29,14 @@ const router = createRouter({
         },
         {path:'/:notFound(.*)',component:NotFound},
     ],
-    linkActiveClass:'active'//merubah class link yang aktif
+    linkActiveClass:'active',
+    scrollBehavior(to,from,savedPosition){
+        console.log(to,from,savedPosition);
+        if(savedPosition){
+            return savedPosition;
+        }
+        return {left:0,top:0};
+    },
 });
 
 const app = createApp(App);
