@@ -30,13 +30,27 @@ const router = createRouter({
         {path:'/:notFound(.*)',component:NotFound},
     ],
     linkActiveClass:'active',
-    scrollBehavior(to,from,savedPosition){
-        console.log(to,from,savedPosition);
+    scrollBehavior(_,_2,savedPosition){
+        // console.log(to,from,savedPosition);
         if(savedPosition){
             return savedPosition;
         }
         return {left:0,top:0};
     },
+});
+
+router.beforeEach(function(to,from,next){
+    console.log(to,from);
+
+    //gunakan next(false); untuk menghentikan navigasi, misal karena User belum login atau belum menyelesaikan form
+    //gunakan next(); untuk menampilkan route yang diminta
+    //kita bisa mempassing object ke dalam next
+    // if(to.name==='team-members'){
+    //     next();
+    // }else{
+    //     next({name:'team-members',params:{teamId:'t2'}});
+    // }
+    next();
 });
 
 const app = createApp(App);

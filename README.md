@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 179. Controlling Scroll Behavior
+## 180. Introducing Navigation Guards
 
-Mengendalikan scroll
+Memperkenalkan penjaga route
