@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 184. Utilizing Route Metadata
+## 185. Organizing Route Files
 
-Mempelajari lebih dalam tentang Metadata di route
+Mengatur file route
