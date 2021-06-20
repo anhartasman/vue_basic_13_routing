@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 182. The Global afterEach Guard
+## 183. Beyond Entering: Route Leave Guards
 
-Mempelajari afterEach pada route
+Mempelajari lebih dalam tentang guard

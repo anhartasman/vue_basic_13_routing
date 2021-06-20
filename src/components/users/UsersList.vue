@@ -1,5 +1,6 @@
 <template>
 <button @click="confirmInput">Confirm</button>
+<button @click="saveChanges">SaveChanges</button>
   <ul>
     <user-item v-for="user in users" :key="user.id" :name="user.fullName" :role="user.role"></user-item>
   </ul>
@@ -13,17 +14,36 @@ export default {
     UserItem,
   },
   inject: ['users'],
+  data(){
+    return {changesSaved:false};
+  },
   methods:{
     //Contoh method
     confirmInput(){
       //do something
       this.$router.push('/teams');
+    },
+    saveChanges(){
+      //do something
+      this.changesSaved=true;
     }
   },
   beforeRouteEnter(to,from,next){
     console.log("UsersList Cmp beforeRouteEnter");
     console.log(to,from);
     next();
+  },
+  beforeRouteLeave(to,from,next){
+console.log(to,from);
+if(this.changesSaved){
+  next();
+}else{
+  const userWantsToLeave = prompt("Apa Anda yakin?");
+  next(userWantsToLeave);
+}
+  },
+  unmounted(){
+    console.log('unmounted');
   }
 };
 </script>
