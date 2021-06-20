@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 183. Beyond Entering: Route Leave Guards
+## 184. Utilizing Route Metadata
 
-Mempelajari lebih dalam tentang guard
+Mempelajari lebih dalam tentang Metadata di route

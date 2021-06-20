@@ -17,6 +17,7 @@ const router = createRouter({
         {
             name:'teams',
             path:'/teams',components:{default:TeamsList,footer:TeamsFooter}, 
+            meta: {needsAuth:true},
             children:[
                 {
                     name:'team-members',
@@ -46,6 +47,12 @@ const router = createRouter({
 
 router.beforeEach(function(to,from,next){
     console.log(to,from);
+    if(to.meta.needsAuth){
+        console.log('Needs auth!');
+        next();
+    }else{
+        next();
+    }
 
     //gunakan next(false); untuk menghentikan navigasi, misal karena User belum login atau belum menyelesaikan form
     //gunakan next(); untuk menampilkan route yang diminta

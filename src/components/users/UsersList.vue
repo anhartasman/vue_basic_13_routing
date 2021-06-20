@@ -38,7 +38,7 @@ console.log(to,from);
 if(this.changesSaved){
   next();
 }else{
-  const userWantsToLeave = prompt("Apa Anda yakin?");
+  const userWantsToLeave = confirm("Apa Anda yakin?");
   next(userWantsToLeave);
 }
   },
