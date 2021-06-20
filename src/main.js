@@ -58,6 +58,14 @@ router.beforeEach(function(to,from,next){
     next();
 });
 
+router.afterEach(function(to,from){
+    //afterEach dipanggil setelah navigasi dilakukan
+    //berguna untuk mengirim data analisis
+    console.log('Global afterEach');
+    console.log(to,from);
+    
+});
+
 const app = createApp(App);
 
 app.use(router);

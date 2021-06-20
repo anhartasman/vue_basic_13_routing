@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 181. Diving Deeper Into Navigation Guards
+## 182. The Global afterEach Guard
 
-Mempelajari lebih dalam tentang navigation guards
+Mempelajari afterEach pada route
