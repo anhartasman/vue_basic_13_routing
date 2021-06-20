@@ -1,4 +1,4 @@
 # vue_basic_13_routing
-## 180. Introducing Navigation Guards
+## 181. Diving Deeper Into Navigation Guards
 
-Memperkenalkan penjaga route
+Mempelajari lebih dalam tentang navigation guards
